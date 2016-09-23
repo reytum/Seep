@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/reytum/Projects/Android/Seep/D:\\Projects\\Android\\Seep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "/media/reytum/Projects/Android/Seep/D:\\Projects\\Android\\Seep\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/media/reytum/Projects/Android/Seep/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/media/reytum/Projects/Android/Seep/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/reytum/Projects/Android/Seep/D:\\media\\reytum\\Projects\\Android\\Seep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "/media/reytum/Projects/Android/Seep/D:\\media\\reytum\\Projects\\Android\\Seep\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/media/reytum/Projects/Android/Seep/D:\\media\\reytum\\Data Drive\\Projects\\Android\\Seep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "/media/reytum/Projects/Android/Seep/D:\\media\\reytum\\Data Drive\\Projects\\Android\\Seep\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/overlappingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/overlappingLayoutColor"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:elevation="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/dealCards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Deal Cards"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/secondPlayerView"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".activities.MainActivity">
+
+            <RelativeLayout
+                android:id="@+id/thirdPlayerView"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/tablecard5"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp" />
+
+                <ImageView
+                    android:id="@+id/tablecard6"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp" />
+
+                <ImageView
+                    android:id="@+id/tablecard1"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/card_borders" />
+
+                <ImageView
+                    android:id="@+id/tablecard2"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/card_borders" />
+
+                <ImageView
+                    android:id="@+id/tablecard7"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp" />
+
+                <ImageView
+                    android:id="@+id/tablecard8"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/tablecard9"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp" />
+
+                <ImageView
+                    android:id="@+id/tablecard10"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp" />
+
+                <ImageView
+                    android:id="@+id/tablecard3"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/card_borders" />
+
+                <ImageView
+                    android:id="@+id/tablecard4"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/card_borders" />
+
+                <ImageView
+                    android:id="@+id/tablecard11"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp" />
+
+                <ImageView
+                    android:id="@+id/tablecard12"
+                    android:layout_width="40dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/firstPlayerView"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/fourthPlayerView"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="72dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
